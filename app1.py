@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 from langchain.callbacks import StreamlitCallbackHandler
 
 ## Setup the streamlit app
-st.set_page_config(page_title="Text to math problem solver and data search assistance")
-st.title("Text to Math problem solver using google Gemma 2")
+st.set_page_config(page_title="MathSage-AI-Powered-Math-Solver-Knowledge-Assistant")
+st.title("MathSage-AI-Powered-Math-Solver-Knowledge-Assistant")
 
 groq_api_key = st.sidebar.text_input(label="Groq API key",type="password")
 
