@@ -18,3 +18,4 @@ uvicorn
 langserve
 sse_starlette
 numexpr
+wikipedia
