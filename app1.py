@@ -20,7 +20,7 @@ if not groq_api_key:
 
 llm = ChatGroq(model="Gemma2-9b-It",groq_api_key=groq_api_key)
 
-## Intializing the tools
+## Intializing the tools and improving performance
 
 Wikipedia_wrapper=WikipediaAPIWrapper()
 wikipedia_tool= Tool(
